@@ -1,0 +1,130 @@
+html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevCraft Web Studio | Custom Website Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .shop-visual {
+            width: 100%;
+            height: 400px;
+            background-color: #e2e8f0;
+            border-radius: 6px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            border: 2px dashed #cbd5e1;
+        }
+        .shop-visual img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .shop-visual p {
+            color: #64748b;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .info-section {
+            margin-bottom: 30px;
+        }
+        .info-section h2 {
+            color: #1a1a2e;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .info-section p {
+            color: #4a5568;
+            font-size: 1.1rem;
+        }
+        .contact-box {
+            background: #e0f2fe;
+            border-left: 5px solid #0284c7;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .contact-box h3 {
+            color: #0369a1;
+            margin-bottom: 5px;
+        }
+        .contact-number {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #0f172a;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DevCraft Web Studio</h1>
+    </header>
+
+    <div class="container">
+        <!-- Shop Photo Container -->
+        <div class="shop-visual">
+            <!-- Once you add your image file to GitHub, the line below will display it -->
+            <img src="shop-photo.jpg" alt="DevCraft Studio Workspace" onerror="this.style.display='none';">
+            <p>📷 [ place your shop-photo.jpg file in your repository to show image ]</p>
+        </div>
+
+        <!-- Shop Information -->
+        <div class="info-section">
+            <h2>About Our Shop</h2>
+            <p>Welcome to DevCraft Web Studio. We are a premier digital shop specializing in building high-performance, modern websites, e-commerce storefronts, and tailored software solutions. Whether you are launching a small business site or looking for custom web layouts, our dedicated engineers deliver robust codebases that elevate your online presence.</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-box">
+            <h3>📞 Direct Contact Line</h3>
+            <p>Call or text us to discuss your platform requirements:</p>
+            <div class="contact-number">+1 (555) 019-2834</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 DevCraft Web Studio. Powered by GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
